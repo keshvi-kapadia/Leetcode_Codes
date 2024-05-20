@@ -1,5 +1,3 @@
-
-
 char * mergeAlternately(char * s1, char * s2){
      char *p=(char *)malloc(202*sizeof(char));
 
