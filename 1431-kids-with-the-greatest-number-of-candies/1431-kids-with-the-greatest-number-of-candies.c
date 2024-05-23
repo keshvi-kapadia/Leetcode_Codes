@@ -19,8 +19,8 @@ bool* kidsWithCandies(int* a, int n, int ex, int* returnSize) {
     int max=maximum(a,n);
     for(int i=0;i<n;i++)
     {
-        printf("%d ",max);
-        if(a[i]+ex>=max)
+        int total=a[i]+ex;
+        if(total>=max)
         p[i]=true;
         else p[i]=false;
     }
