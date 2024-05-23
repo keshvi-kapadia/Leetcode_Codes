@@ -19,9 +19,7 @@ int compare(const void *a,const void *b) {
             cnt++;
             j++;
              if(cnt>half)
-                {
                 return a[i];
-                }
             }
             else break;
         }
