@@ -9,7 +9,6 @@ char* removeStars(char* s) {
     p->top=-1;
     p->size=strlen(s)-1;
     p->a=(char *)malloc((p->size+2)*sizeof(char));
-
     int i=0;
     while(i<strlen(s))
     {
