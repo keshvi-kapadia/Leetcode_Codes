@@ -1,3 +1,3 @@
 [# Leetcode_Codes
 Collection of LeetCode questions to ace the coding interview!
-](https://leetcode-stats.vercel.app/api?username=Keshvi_575&theme=Light)
+]![LeetCode Stats](https://leetcard.jacoblin.cool/Keshvi_575?theme=dark&font=Alata&ext=heatmap)
