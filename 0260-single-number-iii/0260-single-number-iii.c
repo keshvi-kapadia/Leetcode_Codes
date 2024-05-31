@@ -8,7 +8,7 @@ int* singleNumber(int* a, int n, int* returnSize) {
     while(i<n && pos!=2)
     {
         int k=0,j=0;
-        while(j<n)
+        while(j<n && k<2)
         {
             if(a[i]==a[j])
             k++;
