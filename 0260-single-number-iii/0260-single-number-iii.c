@@ -5,7 +5,7 @@ int* singleNumber(int* a, int n, int* returnSize) {
     int *p=(int *)malloc(2*sizeof(int));
     *returnSize=2;
     int i=0,pos=0;
-    while(i<n)
+    while(i<n && pos!=2)
     {
         int k=0,j=0;
         while(j<n)
