@@ -1,11 +1,11 @@
 void reverseString(char* s, int n) {
-    char *begin=&s[0],*end=&s[n-1];
-    while(begin<end)
+    int begin=0,end=n-1;
+    while(begin<n/2)
     {
-        char temp=*begin;
-        *begin=*end;
-        *end=temp;
+        char temp=s[begin];
+        s[begin]=s[end];
+        s[end]=temp;
         begin++;
         end--;
-    }   
+    }
 }
