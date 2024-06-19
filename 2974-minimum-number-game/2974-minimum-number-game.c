@@ -21,9 +21,7 @@ int* numberGame(int* a, int n, int* returnSize) {
     int *p,i,j;
     p=(int *)malloc(n*(sizeof(int)));
     for(i=0;i<n;i++)
-    {
         p[i]=a[i];
-    }
     sort(p,n);
 
     i=0;
