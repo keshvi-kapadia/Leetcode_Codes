@@ -11,6 +11,8 @@ int isprime(int n)
 }
 int isPalindrome(int n)
 {
+    if(n/10==0)
+        return 1;
     int temp=n,num=0;
     while(temp!=0)
     {
