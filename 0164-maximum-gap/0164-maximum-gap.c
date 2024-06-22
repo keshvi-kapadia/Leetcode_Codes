@@ -8,8 +8,9 @@ int maximumGap(int* a, int n) {
     int ans=0,i;
     for(i=0;i<n-1;i++)
     {
-        if(a[i+1]-a[i]>ans)
-        ans=a[i+1]-a[i];
+        int diff=a[i+1]-a[i];
+        if(diff>ans)
+        ans=diff;
     }
     return ans;
 
