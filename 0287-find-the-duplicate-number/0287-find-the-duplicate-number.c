@@ -7,6 +7,8 @@ int findDuplicate(int* a, int n) {
     for(int i=0;i<n;i++)
     {
         temp[a[i]-1]++;
+        if(temp[a[i]-1]>1)
+        return a[i];
     }
     for(int i=0;i<n;i++)
     {
