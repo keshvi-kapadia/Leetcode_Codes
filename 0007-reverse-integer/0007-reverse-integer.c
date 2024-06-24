@@ -1,7 +1,6 @@
 int reverse(long long int x){
     int flag=0;
-    if(x>8463847412)
-        return 0;
+
     if(x<0){
     flag=1;
     x=-(x);
