@@ -8,8 +8,9 @@ int maxArea(int* a, int n) {
         h=a[end];
         else
         h=a[begin];
-        if(h*w>ans)
-        ans=h*w;
+        int temp=h*w;
+        if(temp>ans)
+        ans=temp;
         if(a[begin]<=a[end])
         begin++;
         else end--;
