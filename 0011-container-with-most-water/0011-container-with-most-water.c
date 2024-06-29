@@ -2,8 +2,7 @@ int maxArea(int* a, int n) {
     int begin=0,end=n-1,ans=0;
     while(begin<end)
     {
-        int h,w;
-        w=end-begin;
+        int h,w=end-begin;
         if(a[begin]>a[end])
         h=a[end];
         else
